@@ -91,16 +91,17 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendar.app.google/abq7RmKjMgNFE7KX8",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Dylan is a scientist with a passion for solving complex human-centred
+        problems through simple, impactful solutions. He works at the
+        intersection of intelligent systems, data-driven solutions, and emerging
+        technologies.
       </>
     ),
   },
@@ -109,44 +110,26 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "University of KwaZulu-Natal",
+        timeframe: "July 2024 - Nov. 2024",
+        role: "Supplemental Instruction Leader",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designed SI sessions using collaborative and active learning
+            techniques to guide students through complex computer programming
+            concepts, assisting over 30 students in improving their academic
+            performance by 10%.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
       },
     ],
   },
@@ -155,12 +138,42 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of KwaZulu-Natal (BSc)",
+        description: (
+          <>
+            Studied from 2021 to 2023. Graduated with a Bachelor of Science in
+            Computer Science and Information Technology (Cum Laude). Double
+            majored in Computer Science.
+          </>
+        ),
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of KwaZulu-Natal (BSc Hons)",
+        description: (
+          <>
+            Studied throughout 2024. Graduated with a Bachelor of Science
+            Honours in Computer Science (Cum Laude). Studies included Artificial
+            Intelligence and Quantum Computing.
+          </>
+        ),
+      },
+      {
+        name: "University of KwaZulu-Natal (MSc)",
+        description: (
+          <>
+            Pursuing a Master of Science in Computer Science in 2025, with a
+            research focus on the intersection of Artificial Intelligence and
+            Quantum Computing.
+          </>
+        ),
+      },
+      {
+        name: "ALX Africa (Data Scientist)",
+        description: (
+          <>
+            Pursuing the Data Science programme offered by ALX Africa in 2025.
+          </>
+        ),
       },
     ],
   },
@@ -169,35 +182,16 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Python",
+        description: <>Building next gen intelligent systems with Python.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],
@@ -207,7 +201,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about science and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -217,7 +211,7 @@ const work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  description: `Projects and research by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
